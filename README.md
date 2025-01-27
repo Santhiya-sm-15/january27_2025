@@ -81,7 +81,6 @@ class Solution {
                     dfs(i,j,visited,grid,i,j,l);
                     s.add(l);
                 }
-                
             }
         }
         return s.size();
